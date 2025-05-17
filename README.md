@@ -37,8 +37,8 @@ I specialize in **JavaScript-first** solutions tailored for modern commerce. Whe
 ## 🤝 Let's Connect
 
 - 🌍 [Website](https://your-portfolio-site.netlify.app)
-- 💼 [Upwork Profile](https://upwork.com/yourprofile)
-- 📧 Email: youremail@example.com
+- 💼 [Upwork Profile](https://www.upwork.com/freelancers/~0117fea40c8bd90020)
+- 📧 Email: macraybilly66@gmail.com
 
 ---
 
