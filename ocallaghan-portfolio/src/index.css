@@ -1,0 +1,116 @@
+/* Brittany-inspired with your orange accent */
+@import "tailwindcss";
+:root {
+  --orange: #F97316;
+  --orange-dark: #EA580C;
+  --dark: #0F172A;
+  --light: #F8FAFC;
+  --gray: #94A3B8;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--dark);
+  color: var(--light);
+  position: relative;
+}
+
+/* Navbar scroll effect */
+.navbar {
+  backdrop-filter: blur(5px);
+  transition: background 0.3s;
+}
+.navbar.scrolled {
+  background: rgba(15, 23, 42, 0.9);
+}
+
+/* Typing effect */
+.typing-effect {
+  color: var(--orange);
+  border-bottom: 2px dashed var(--orange);
+}
+.cursor {
+  animation: blink 1s infinite;
+}
+
+/* Project grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.metric-pill {
+  background: rgba(249, 115, 22, 0.2);
+  color: var(--orange);
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+}
+/* Sidebar should appear above footer */
+.sidebar {
+  z-index: 20;
+}
+
+/* Main content area */
+.main-content {
+  position: relative;
+  z-index: 10;
+}
+
+/* Footer should appear below sidebar */
+/* Ensure footer appears above background but below sidebar */
+footer {
+  position: relative;
+  z-index: 10;
+}
+
+/* Social icons hover effect */
+.social-icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.social-icon:hover {
+  transform: translateY(-2px);
+}
+/* Custom animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.section-indicator {
+  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+/* For custom scrollbar (optional) */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #f97316 #0f172a;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #f97316;
+  border-radius: 2px;
+}
+/* Section transition animation */
+section {
+  view-transition-name: var(--section-id);
+}
+/* Add to your globals.css */
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out forwards;
+}
