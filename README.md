@@ -15,7 +15,7 @@ Welcome to my personal portfolio website — a modern, fast, and fully responsiv
 - ⚛️ React + Vite
 - 💨 Tailwind CSS
 - ✨ Framer Motion (for subtle animations)
-- 💻 Deployed via Netlify or Vercel
+- 💻 Deployed via Vercel
 
 ## 📦 Features
 
@@ -36,7 +36,7 @@ I specialize in **JavaScript-first** solutions tailored for modern commerce. Whe
 
 ## 🤝 Let's Connect
 
-- 🌍 [Website](https://your-portfolio-site.netlify.app)
+- 🌍 [Website](https://your-portfolio-site.vercel.app)
 - 💼 [Upwork Profile](https://www.upwork.com/freelancers/~0117fea40c8bd90020)
 - 📧 Email: macraybilly66@gmail.com
 
