@@ -27,7 +27,7 @@ Welcome to my personal portfolio website — a modern, fast, and fully responsiv
 
 ## 🚀 Live Demo
 
-[🔗 View Live Site](https://your-portfolio-site.netlify.app)  
+[🔗 View Live Site]((https://billy-ng-uono-java-script-engineer-portfolio.vercel.app/))  
 *Replace with your actual deployment link*
 
 ## 🧠 Philosophy
